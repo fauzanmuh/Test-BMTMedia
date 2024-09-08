@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
@@ -24,3 +25,5 @@ Route::middleware('auth:sanctum')->group(function () {
 
 Route::post('/users/{id}/assign-role', [UserController::class, 'assignRole']);
 Route::post('/users/{id}/remove-role', [UserController::class, 'removeRole']);
+
+Route::middleware('auth:sanctum')->resource('posts', PostController::class);
