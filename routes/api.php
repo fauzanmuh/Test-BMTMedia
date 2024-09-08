@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -16,3 +17,10 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::put('/users/{id}', [UserController::class, 'update']);
     Route::delete('/users/{id}', [UserController::class, 'destroy']);
 });
+
+Route::middleware('auth:sanctum')->group(function () {
+    Route::resource('roles', RoleController::class);
+});
+
+Route::post('/users/{id}/assign-role', [UserController::class, 'assignRole']);
+Route::post('/users/{id}/remove-role', [UserController::class, 'removeRole']);
