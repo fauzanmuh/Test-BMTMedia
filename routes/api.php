@@ -2,6 +2,7 @@
 
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
@@ -17,6 +18,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/users/{id}', [UserController::class, 'show']);
     Route::put('/users/{id}', [UserController::class, 'update']);
     Route::delete('/users/{id}', [UserController::class, 'destroy']);
+    Route::post('/users/{id}/upload-profile-picture', [UserController::class, 'uploadProfilePicture']);
 });
 
 Route::middleware('auth:sanctum')->group(function () {
