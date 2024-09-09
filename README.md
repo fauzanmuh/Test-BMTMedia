@@ -1,53 +1,53 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<h2 id="dokumentasi">Dokumentasi API</h2>
+## Dokumentasi API
 
 - API Login
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/login.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/login.png)
 
 - API Logout
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/logout.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/logout.png)
 
 - API Create User
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createUser.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createUser.png)
 
 - API Read User
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/readUser.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/readUser.png)
 
 - API Update User
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/updateUser.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/updateUser.png)
 
 - API Delete User
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/deleteUser.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/deleteUser.png)
 
 - API Create Role
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createRole.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createRole.png)
 
 - API Create User Role
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createUserRole.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createUserRole.png)
 
 - API Read User Role
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/readUserRole.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/readUserRole.png)
 
 - API Create Posts
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createPosts.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/createPosts.png)
 
 - API Read Posts
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/readPosts.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/readPosts.png)
 
 - API Update Posts
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/updatePosts.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/updatePosts.png)
 
 - API Delete Posts (Bukan user yang membuat posts tersebut)
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/deletePosts1.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/deletePosts1.png)
 
 - API Delete Posts (User yang membuat posts tersebut)
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/deletePosts2.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/deletePosts2.png)
 
 - API Upload Foto
-![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/uploadFoto.PNG)
+![](https://github.com/fauzanmuh/Test-BMTMedia/raw/master/dokumentasiAPI/uploadFoto.png)
 
-<h2 id="install">Panduan Menjalankan & Install Aplikasi</h2>
+## Panduan Menjalankan & Install Aplikasi
 
 Buat Database
 
